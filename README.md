@@ -1,0 +1,1 @@
+#JunaSot ; App pobre
