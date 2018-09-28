@@ -1,0 +1,7 @@
+{
+  "name": "junaspot_proyect",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
