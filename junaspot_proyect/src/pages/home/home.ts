@@ -14,6 +14,9 @@ import {
   Marker, GoogleMapsAnimation, GoogleMapOptions
 } from "@ionic-native/google-maps";
 
+import { AngularFireList, AngularFireDatabase } from 'angularfire2/database';
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -27,7 +30,8 @@ export class HomePage {
 
   constructor(public navCtrl: NavController,
               public geolocation: Geolocation,
-              public googleMaps: GoogleMaps) {
+              public googleMaps: GoogleMaps,
+              public database: AngularFireDatabase) {
 
   }
 

@@ -13,6 +13,21 @@ import { GoogleMaps } from "@ionic-native/google-maps";
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+
+export const firebaseConfig = {
+
+  apiKey: "AIzaSyAE6G2QBfvkU9bHtylsoRlIS4O-WglyoE8",
+  authDomain: "junaspot-6666.firebaseapp.com",
+  databaseURL: "https://junaspot-6666.firebaseio.com",
+  projectId: "junaspot-6666",
+  storageBucket: "junaspot-6666.appspot.com",
+  messagingSenderId: "93794385645"
+};
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -32,6 +47,8 @@ import { HomePage } from '../pages/home/home';
     SplashScreen,
     GoogleMaps,
     Geolocation,
+    AngularFireModule,
+    AngularFireDatabaseModule,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

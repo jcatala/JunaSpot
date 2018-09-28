@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "93794385645",
+    "firebase_url": "https://junaspot-6666.firebaseio.com",
+    "project_id": "junaspot-6666",
+    "storage_bucket": "junaspot-6666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93794385645:android:ec615c4152e19012",
+        "android_client_info": {
+          "package_name": "io.junaspot.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93794385645-22tku80pqtintqdqpol89265v7u1q5ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0BR3eJe0UvvT0NQdpma4Zh5TvmYvbuSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
